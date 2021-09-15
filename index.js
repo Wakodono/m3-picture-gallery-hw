@@ -52,8 +52,10 @@ const loadImages = (query) => {
 
 }
 
-window.onload = function () {
-
+const deleteCard = () => {
+    // this.closest(.col-md-4)
 }
+
+
 
        
