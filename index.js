@@ -34,14 +34,14 @@ const loadImages = (query) => {
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onClick="showModal()">
                         View
                       </button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onClick="deleteCard(this)">
+                        Hide
                       </button>
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">${photo.id}</small>
                   </div>
                 </div>
               </div>
@@ -52,9 +52,12 @@ const loadImages = (query) => {
 
 }
 
-const deleteCard = () => {
-    // this.closest(.col-md-4)
+const showModal = () => {
+    
 }
+// const deleteCard = () => {
+//     this.closest(".col-md-4").remove()
+// }
 
 
 
