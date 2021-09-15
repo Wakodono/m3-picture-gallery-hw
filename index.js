@@ -25,7 +25,7 @@ const loadImages = (query) => {
               row.innerHTML += `
               <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img src=${photo.src.small} width = 287 height = 225 ">
+                <img src=${photo.src.small}">
                 <div class="card-body">
                   <p class="card-text">
                     This is a wider card with supporting text below as a natural
